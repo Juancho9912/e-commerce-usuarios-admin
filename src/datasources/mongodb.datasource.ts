@@ -4,8 +4,8 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'mongodb',
   connector: 'mongodb',
-  url: '',
-  //url: 'mongodb+srv://proyectos-ucaldas:Colombia12@cluster0.3omn2.mongodb.net/e-commerce-db?retryWrites=true&w=majority',
+  //url: '',
+  url: 'mongodb+srv://proyectos-ucaldas:Colombia12@cluster0.3omn2.mongodb.net/e-commerce-db?retryWrites=true&w=majority',
   host: 'localhost',
   port: 27017,
   user: 'proyectos-ucaldas',
